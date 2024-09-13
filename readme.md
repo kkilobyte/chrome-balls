@@ -1,4 +1,12 @@
 # Bouncing Chrome Balls ported to a PWA!
+## Description
+See title.
+
+Chrome logos bouncing around. Drag them with a mouse or touchscreen.
+
+This is a demo app made with BIB:
+https://chrome.google.com/webstore/detail/bib/clpbnigmledbhmjepnjjkbmaklgbhjhe
+
 ## Why?
 Why not.
 
@@ -11,7 +19,7 @@ Why not.
 6. Profit.
 
 # Issues
-1. Bouncing Chrome Balls can NOT run from a `file://` URL. Put it on a HTTP server like NGINX or a static web host like Github Pages or Neocities. Hopefully someone can make a pull request that fixes this.
+## 1. Bouncing Chrome Balls can NOT run from a `file://` URL. Put it on a HTTP server like NGINX or a static web host like Github Pages or Neocities. Hopefully someone can make a pull request that fixes this.
 ```
 Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.
     at BitmapData._initFromImg (ivank.js:1261:18)
@@ -26,3 +34,7 @@ Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingCont
     at Array.forEach (<anonymous>)
 ```
 I am attempting to fix this myself, however, if you want to make a pull request that manages to SUCCESSFULLY fix this, please go ahead at https://github.com/kkilobyte/chrome-balls/pulls. :)
+
+# Credits
+All credits goes to jack.m.hou, he is the original creator and made the entire thing himself using [BIB](https://chromewebstore.google.com/detail/bib/clpbnigmledbhmjepnjjkbmaklgbhjhe) which he made himself. Bouncing Chrome Balls was made as a BIB demo.
+Original Chrome App - https://chromewebstore.google.com/detail/bouncing-chrome-balls/kcnppjgblnmbfhgnaambnijjfbmagihm
