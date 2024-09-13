@@ -25,4 +25,3 @@ Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingCont
     at Array.forEach (<anonymous>)
 ```
 I am attempting to fix this myself, however, if you want to make a pull request that manages to SUCCESSFULLY fix this, please go ahead at https://github.com/kkilobyte/chrome-balls/pulls. :)
-fsdfsadfsfd
