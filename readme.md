@@ -10,7 +10,8 @@ Why not.
 5. Open `chrome.html` or `index.html`.
 6. Profit.
 
-# Notice: the current version doesn't work
+# Issues
+1. Bouncing Chrome Balls can NOT run from a `file://` URL. Put it on a HTTP server like NGINX or a static web host like Github Pages or Neocities. Hopefully someone can make a pull request that fixes this.
 ```
 Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The canvas has been tainted by cross-origin data.
     at BitmapData._initFromImg (ivank.js:1261:18)
