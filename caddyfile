@@ -1,0 +1,4 @@
+http://:8080 {
+	root ./
+	file_server
+}
